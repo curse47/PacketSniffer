@@ -1,0 +1,12 @@
+Install scapy
+	pip install scapy
+
+Install Npcap
+	1-Download it from the official site: https://npcap.com/#download
+	2-Run the installer as Administrator.
+	3-Important: during installation, check the box "Install Npcap in WinPcap API-compatible Mode" — scapy relies on this for compatibility.
+	4-Leave the other options at default (WinPcap-compatible + loopback support are usually fine as-is).
+	5-Finish the install, then reboot your machine (Npcap's driver sometimes doesn't fully register until a restart).
+
+Note:
+	Run the cmd as administrator and open the file location then type - python [File Name].py
