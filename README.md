@@ -1,8 +1,4 @@
 # PacketSniffer
-A Python-based network packet sniffer built with Scapy that captures live traffic and displays source/destination IPs, protocols, ports, and payload previews — a hands-on introduction to how data flows across a network.
-
-# Basic Network Sniffer
-
 A Python packet sniffer built with **Scapy** that captures live network
 traffic in real time and breaks it down into readable, structured output.
 It identifies protocols (TCP/UDP/ICMP), extracts source and destination
